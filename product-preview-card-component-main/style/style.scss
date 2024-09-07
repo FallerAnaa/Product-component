@@ -5,7 +5,6 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     background-color: hsl(30, 38%, 92%);
 }
@@ -31,14 +30,15 @@ body{
     height: 450px;
     padding: 32px;
 }
-
 .perfume{
     margin-bottom: 20px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
+    display: flex;
+    font-family: "Montserrat", system-ui;
+    font-size: 10px;
+    font-weight: 400;
     letter-spacing: 5px;
     line-height: 14.63px;
+    color: #6C7289;
 }
 .título{
     width: 236px;
@@ -48,7 +48,7 @@ body{
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
-    color: black;
+    color: hsl(212, 21%, 14%);
 }
 .parágrafo{
     margin-bottom: 29px;
@@ -57,6 +57,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 23px;
+    color: #6C7289;
 }
 .preço{
     display: flex;
@@ -83,7 +84,7 @@ p{
     font-weight: 500;
     color: #6C7289;
 }
-.botão{
+button{
     width: 236px;
     height: 48px;
     display: flex;
